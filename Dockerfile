@@ -8,4 +8,4 @@ RUN ls
 FROM scratch
 COPY --from=builder  /go/src/web .
 
-CMD [ "./web" ]
+CMD [ "./main" ]

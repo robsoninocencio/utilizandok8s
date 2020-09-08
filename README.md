@@ -1,4 +1,4 @@
-https://hub.docker.com/repository/docker/robsoni/utilizandok8s_img
+Imagem do app no dockerhub: https://hub.docker.com/repository/docker/robsoni/utilizandok8s_img
 
 Utilizando os conhecimentos adquiridos até o momento, crie os arquivos declarativos do Kubernetes para que os seviços abaixam possam ser executados.
 

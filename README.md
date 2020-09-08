@@ -1,4 +1,6 @@
 Imagem do app no dockerhub: https://hub.docker.com/repository/docker/robsoni/utilizandok8s_img
+Ip de acesso ao Nginx: http://104.197.217.70/
+serviço do tipo Load Balancer: http://34.122.30.241:8000/
 
 Utilizando os conhecimentos adquiridos até o momento, crie os arquivos declarativos do Kubernetes para que os seviços abaixam possam ser executados.
 

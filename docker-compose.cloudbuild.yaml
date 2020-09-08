@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  app:
+    build: .
+    container_name: app
+
+# kubectl apply -f go/k8s
+# git push origin master
+# kubectl get pods

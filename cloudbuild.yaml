@@ -1,5 +1,17 @@
 steps:
+
+- id: "Rodando docker-compose"
+  name: "gcr.io/$PROJECT_ID/docker-compose:1.25.5"
+  args: ["-f", "docker-compose.cloudbuild.yaml", "up", "-d"]
+
+- id: "Rodando composer"
+  name: "gcr.io/cloud-builders/docker"
+  args: ["ps"]
+
 - id: "Rodando Teste Unitario"
   name: 'gcr.io/cloud-builders/go'
   args: ['test', './go/src/web']
   env: ['GOPATH=.']
+
+
+

@@ -1,7 +1,7 @@
 FROM golang:1.14-alpine as builder
 
 WORKDIR /go/src/web
-COPY ./src/web/ .
+COPY ./go/src/web/ .
 RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -ldflags '-w -extldflags "-static"' -o web
 RUN ls
 

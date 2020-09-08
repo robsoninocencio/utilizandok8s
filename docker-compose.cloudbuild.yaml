@@ -6,5 +6,7 @@ services:
     container_name: app
 
 # kubectl apply -f go/k8s
+
 # git push origin master
+
 # kubectl get pods
